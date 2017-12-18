@@ -1,0 +1,241 @@
+div.page-wrap {
+    width: 100%;
+    margin: 0px;
+}
+
+header .left, .center, .right{
+    box-sizing: border-box;
+    background-image: url("../imagenes/panda_welcome.jpg");
+    height: 120px;
+}
+
+header .left{
+    text-align: center;
+    float:left;
+    width:35%;
+}
+
+header .center{
+    text-align: center;
+    background-color:#f1f1f1;
+    background-image: none;
+    float:left;
+    width:30%;
+}
+
+header .right{
+    text-align: right;
+    float:left;
+    width:35%;
+}
+
+header .right img{
+    position: static;
+    margin: 10px 10px 10px 10px;
+}
+
+header img {
+    margin: -80px 0px 0px 0px;
+    border: 2px solid Black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+header h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color : #000;
+}
+
+header p {
+    margin-right: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color : #000;
+    border-radius : 25px;
+    padding:0.5em 0.5em 0.5em 0.5em;
+    display:inline-block;
+    background-color: #fff;
+    border:2px solid Black;
+}
+
+header span a:link,header span a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header span a:hover,header span a:active {
+  background-color: #4CAF50;
+  color : #fff;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav .active {
+    background-color: #4CAF50;
+}
+
+section {
+    padding: 1em;
+    margin: 10px;
+    overflow: auto;
+    min-height: 500px;
+    text-align: center;
+    width: auto;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #4CAF50;
+    clear: left;
+    text-align: center;
+}
+
+#panda{
+    position: absolute;
+    margin: -50px 0px 0px 200px;
+}
+
+form{
+    width: 40%; margin: 0 auto;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 230px;
+    text-align: left;
+}
+
+#formulario-login input:not(#Log), #formulario input:not(#boton):not(#tableButton), select, #formulario-datos input:not(#send), #formulario-registro input{
+    display: inline-block;
+    float: left;
+}
+
+#formulario-login a img:hover{
+    opacity: 0.7;
+}
+
+#formulario, #formulario-registro, #formulario-login, #formulario-datos{
+    padding-top: 50px;
+    background-color: rgb(49,230,140);
+    border: 4px solid rgb(26, 16, 26);
+    min-height: 450px;
+}
+
+#formulario-login label {
+    display: inline-block;
+    float: left; clear: left;
+    width: 130px;
+    text-align: left;
+}
+
+#boton{
+    margin-top:230px;
+    margin-left: -390px;
+}
+
+#borrarImagen{
+    position:absolute;
+    margin: 230px 0px 0px -70px;
+}
+
+#Log, #send{
+    position: absolute;
+    margin: 130px 0px 0px -220px;
+}
+
+
+section table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section th, td {
+    text-align: center;
+}
+
+section tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+section th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#txtHint {
+    padding: 40px;
+}
+
+#txtHint table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#txtHint th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+section th {
+    border: 1px solid black;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#txtHint tr:nth-child(odd){
+    border: 1px solid black;
+    background-color: #44c382;
+}
+
+#misPreguntas, #numUsuarios{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#misPreguntas p, #numUsuarios p{
+    border: 2px solid black;
+    padding: 5px;
+}
+

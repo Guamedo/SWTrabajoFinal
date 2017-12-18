@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+#panda				        {position: absolute; margin: -50px 0px 0px 200px;}
+h2					        {margin-top: 10px;}
+form				        {width: 40%; margin: 0 auto;}
+label                       { display: inline-block; float: left; clear: left; width: 230px; text-align: left;}
+#formulario-login input:not(#Log), #formulario input:not(#boton), select   { display: inline-block; float: left;}
+#formulario, #formulario-registro input:not(#respuesta), #formulario-login {background-color: rgb(49,230,140); border: 4px solid rgb(26, 16, 26); height: 450px;}
+#formulario-login label { display: inline-block; float: left; clear: left; width: 130px; text-align: left;}
+
+#boton                  	{margin-top:230px; margin-left: -390px;}
+#borrarImagen               {position:absolute; margin: 230px 0px 0px -70px;}
+#enviar, #Log 				{position: absolute;  margin: 130px 0px 0px -220px;}
+#delImagen 					{position: absolute;  margin: 130px 0px 0px -120px;}
+
+#page-wrap				    {margin: 2% auto; color: white;}
+#page-wrap >.main 		    {border: 1px solid #999; padding: 1%; margin-bottom: 1px; color: black;}
+
+section > div				{padding: 20px; }
+
+header, section			    {background: #eee; text-align: center; }
+footer					    {background: #eee; text-align: center;}
