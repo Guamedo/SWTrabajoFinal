@@ -167,8 +167,11 @@
                                                 $row['respuesta_incorrecta_2'],
                                                 $row['respuesta_incorrecta_3']);
                         shuffle($respuestas);
+                        $like = $row['likee'];
+                        $dislike = $row['dislike'];
                         echo
                             "<h2>$pregunta</h2>
+                            <label>Likes: $like / Dislikes: $dislike</label>
                             <input id='id' type='hidden'  value='$id'>
                             <label class='containerJ'>$respuestas[0]
                                 <input type='radio' name='respuesta' value='$respuestas[0]'>
